@@ -1,0 +1,14 @@
+glogal:
+  message: Welcome to order service dev environment!
+server:
+  port: 8084
+message: Hello from Order Dev!
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/order_master
+    username: root
+    password: lead4dead
+  jpa:
+    hibernate: 
+      ddl-auto: update
+    show-sql: false
