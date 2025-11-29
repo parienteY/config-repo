@@ -4,10 +4,6 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/customer_master
     driverClassName: com.mysql.cj.jdbc.Driver
-eureka:
-  client:
-    service-url:
-      defaultZone: http://discovery-service:8761/eureka/
   jpa:
     hibernate: 
       ddl-auto: none
