@@ -9,7 +9,3 @@ spring:
       dialect: org.hibernate.dialect.H2Dialect
       ddl-auto: none
     show-sql: false
-eureka:
-  client:
-    service-url:
-      defaultZone: http://discovery-service:8761/eureka/
