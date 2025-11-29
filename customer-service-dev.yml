@@ -6,8 +6,8 @@ message: Hello from Dev!
 spring:
   datasource:
     url: jdbc:postgresql://shop_db:5432/customer_master
-    username: root
-    password: lead4dead
+    username: yurguen
+    password: 123456789
   jpa:
     hibernate: 
       ddl-auto: update
