@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: customer-service
+  datasource:
+    url: jdbc:postgresql://shop_db:5432/user_master
+    driverClassName: org.postgresql.Driver
+  jpa:
+    hibernate: 
+      ddl-auto: none
+    show-sql: false
