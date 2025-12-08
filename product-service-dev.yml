@@ -1,0 +1,14 @@
+glogal:
+  message: Welcome to prodcut service dev environment!
+server:
+  port: 8085
+message: Hello from Dev!
+spring:
+  datasource:
+    url: jdbc:postgresql://shop_db:5432/product_master
+    username: yurguen
+    password: 123456789
+  jpa:
+    hibernate: 
+      ddl-auto: update
+    show-sql: false
